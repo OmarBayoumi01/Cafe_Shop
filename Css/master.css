@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.special-title {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.special-title span {
+  background-color: black;
+  padding: 8px 16px;
+  font-weight: lighter;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* start Nav */
+nav {
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+nav .nav-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .nav-links a {
+  color: white;
+  padding: 16px 8px;
+  text-decoration: none;
+  text-align: center;
+  width: calc(80% / 4);
+}
+
+nav .nav-links a:hover {
+  background-color: rgba(221, 232, 232, 0.448);
+}
+
+/* End Nav */
+
+/* Start Header */
+header {
+  background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: cover;
+  height: calc(70vh - 50px);
+  background-position: center;
+  filter: grayscale(100%);
+  position: relative;
+}
+
+header .header-info h2 {
+  position: absolute;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 80px;
+  font-weight: lighter;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .header-info p {
+  margin: 0;
+  position: absolute;
+  top: 87%;
+  margin-left: 20px;
+  padding: 8px 8px;
+  color: white;
+  background-color: black;
+}
+/* End Header */
+
+/* Start About */
+.About {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f6f6f6;
+}
+
+.About .container p {
+  line-height: 1.7;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.About .container .About-img-content {
+  /* text-align: center; */
+  margin: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: rgba(180, 174, 174, 0.367);
+  width: 500px;
+  position: relative;
+}
+
+.About .container .About-img-content::before {
+  content: "";
+  position: absolute;
+  height: 218px;
+  width: 5px;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+.About-img {
+  position: relative;
+}
+.About-img img {
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  height: 50vh;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.About-address {
+  text-align: center;
+}
+
+.About-address p span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.inside-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 249, 249);
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+/* End About */
+
+/* start Meue */
+.menu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.menu-content {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 8px 16px;
+  /* text-align: center; */
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item p:first-child {
+  font-size: 20px;
+}
+
+.menu-item p:nth-child(2) {
+  font-size: 20px;
+  color: #909090;
+}
+/* End Meue */
+
+/* Start Find */
+.find {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: #f6f6f6;
+}
+
+.find .container p {
+  font-size: 20px;
+}
+.find .container .find-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.find .container img {
+  filter: grayscale(100%);
+}
+.find .container .find-form input {
+  padding: 16px 16px;
+  border: 0;
+}
+.form-btn {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #909090;
+  color: black;
+}
+/* End Find */
+/* Satrt Foter */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 20px;
+  font-weight: lighter;
+}
+/*End Foter */

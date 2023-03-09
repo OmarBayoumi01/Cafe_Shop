@@ -1,5 +1,5 @@
 # Cafe_Shop
 
-https://strong-daifuku-81f8ac.netlify.app/
+https://app.netlify.com/sites/teal-puffpuff-4ebe1f/overview
 
 #### Simple HTML,CSS Project

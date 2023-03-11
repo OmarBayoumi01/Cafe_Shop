@@ -2,4 +2,4 @@
 
 https://melodious-figolla-5bdc66.netlify.app/
 
-#### Simple HTML,CSS Project
+#### Replica of a W3Schools project
